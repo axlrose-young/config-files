@@ -1,8 +1,12 @@
-call plug#begin('~/.vim/plugges')
+call plug#begin('~/.vim/plugged')
 
-Plug 'sainnhe/everforest.git'
+Plug 'sainnhe/everforest'
 
 call plug#end()
+
+set termguicolors
+set background=dark
+colorscheme everforest
 
 syntax on
 filetype plugin indent on
@@ -14,7 +18,6 @@ set ruler
 set autoindent
 set smartindent
 
-set termguicolors
 
 set laststatus=2
 set showmode
