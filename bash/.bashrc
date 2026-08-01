@@ -10,6 +10,8 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 # added configs
+
+export PATH="$HOME/.local/bin:$PATH"
 export EDITOR=vim
 
 alias v='vim'
