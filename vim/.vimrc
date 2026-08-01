@@ -1,13 +1,3 @@
-call plug#begin('~/.vim/plugged')
-
-Plug 'sainnhe/everforest'
-
-call plug#end()
-
-set termguicolors
-set background=dark
-colorscheme everforest
-
 syntax on
 filetype plugin indent on
 
