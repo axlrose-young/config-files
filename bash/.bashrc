@@ -11,7 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 # added configs
 
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/dotfiles/scripts:$PATH"
 export EDITOR=vim
 
 alias v='vim'
