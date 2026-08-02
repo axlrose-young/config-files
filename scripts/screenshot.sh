@@ -14,4 +14,5 @@ case "$1" in
 		;;
 esac
 xclip -selection clipboard -t image/png -i $SS
+notify-send "SS" "Screenshot copied to clipboard"
 

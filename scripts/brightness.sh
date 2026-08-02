@@ -8,3 +8,5 @@ case "$1" in
 		brightnessctl set 10-
 		;;
 esac
+
+notify-send -r 1 "Brightness" "$(brightnessctl g)"
