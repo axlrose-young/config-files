@@ -11,12 +11,17 @@ PS1='[\u@\h \W]\$ '
 
 # added configs
 
-export PATH="$HOME/dotfiles/scripts:$PATH"
+# Removes duplicate path export
+if [[ :"$PATH": != *"$HOME/dotfiles/scripts"* ]];then
+	export PATH="$HOME/dotfiles/scripts:$PATH"
+fi
+
 export EDITOR=vim
 
 alias v='vim'
 alias ll='ls -lah'
 alias yy='yazi'
 alias gs='git status'
+alias x='startx'
 
 eval "$(starship init bash)"
